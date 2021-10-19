@@ -1,0 +1,30 @@
+body{
+    background-image: url("https://image.freepik.com/free-vector/leaves-petals-abstract-background_23-2148544988.jpg");
+    background-size:cover;
+}
+.head{
+    font-family: fantasy;
+    width: 100%;
+    font-size: medium;
+    box-shadow:5px 5px 5px cyan;
+    margin-top: 0px;
+}
+.foot{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color: palevioletred;
+    box-shadow:5px 5px 5px pink;
+    width: 100%;
+    font-size: medium;
+    position: fixed;
+    bottom:0;
+}
+::placeholder{
+    color:white;
+    font-family: cursive;
+}
+#sized{
+    background-color: blueviolet;
+    color: white;
+    width: 300px;
+}
