@@ -5,12 +5,12 @@ diff=0;
 
 function setup(){
     canvas=createCanvas(600,300);
-    canvas.position(450,130);
+    canvas.position(500,300);
     video=createCapture(VIDEO);
     video.size(300,300);
     pose=ml5.poseNet(video,model_loaded);
     pose.on("pose",get_poses);
-    document.getElementById("sized");
+    tex=document.getElementById("sized").value;
  }
  
  function get_poses(results){
@@ -28,3 +28,10 @@ function model_loaded(){
     console.log("Model Loaded");
 }
 
+function draw(){
+    background("#03fca1");
+    textSize(18);
+    fill("#7d3c38");
+    text(tex,50,100);
+
+}

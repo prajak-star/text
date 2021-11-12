@@ -19,6 +19,8 @@ body{
     position: fixed;
     bottom:0;
 }
+canvas{
+}
 ::placeholder{
     color:white;
     font-family: cursive;
